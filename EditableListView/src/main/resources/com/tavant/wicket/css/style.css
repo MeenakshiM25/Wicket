@@ -18,7 +18,6 @@ body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;colo
 ul{list-style:none}
 header{color:#4c4c4b;border-bottom:5px solid #32529b;background:url(../images/header-gradient.png) repeat-x 0 0 #fff}
 header .logo{margin:0;padding:0;}
-header .logo .fifth-third-logo{background:url(../images/fifth-third-logo.png) 300px 147px}
 header ul.header-nav{padding-top:30px}
 header ul.header-nav li{float:left;list-style:none}
 header ul.header-nav li a{color:#4c4c4b;border-right:1px solid #a5a8ab;padding:0 10px}
