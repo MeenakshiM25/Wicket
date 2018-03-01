@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+	<head>
+		<meta charset="utf-8" />
+		<title>Apache Wicket Quickstart</title>
+		<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:regular,bold' rel='stylesheet' type='text/css' />
+		<!-- <link rel="stylesheet" href="style.css" type="text/css" media="screen" title="Stylesheet" /> -->
+	    <style>
+	   .tree p {
+              margin: 0px;
+            }
+       table {
+		    width: 100%;
+		    border: 1px solid #DDDDDD;
+		}
+		th{text-align:left;}
+		tr.even {
+		    background-color: #FFFFFF;
+		}
+		tr.odd {
+		    background-color: #EEEEEE;
+		}
+		td.number {
+		}
+		
+		table tr th { background-position: right; background-repeat:no-repeat;
+		}
+		table tr th.wicket_orderDown {
+		 background-image: url(images/arrow_down.png); }
+		table tr th.wicket_orderUp {
+		 background-image: url(images/arrow_up.png); }
+		table tr th.wicket_orderNone {
+		 background-image: url(images/arrow_off.png);
+        </style>
+	</head>
+	<body>
+		
+		   <div wicket:id="tree">[tree]</div>
+         
+	</body>
+</html>
