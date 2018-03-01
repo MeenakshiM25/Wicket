@@ -1,7 +1,7 @@
 var dtmLoc = location.hostname; 
-var testinghosts = ["secure-development.53.com"
-                   ,"secure-qa.53.com"
-                   ,"secure-staging.53.com"
+var testinghosts = ["xxx.com"
+                   ,"yyy.com"
+                   ,"zzz.com"
                   ];
 
  
