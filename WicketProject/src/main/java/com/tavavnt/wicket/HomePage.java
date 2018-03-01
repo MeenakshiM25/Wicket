@@ -428,7 +428,7 @@ public class HomePage extends WebPage {
 		response.render(JavaScriptHeaderItem.forReference(new JavaScriptResourceReference(WicketApplication.class, "jq.min.js")));
 		response.render(JavaScriptHeaderItem.forReference(new JavaScriptResourceReference(WicketApplication.class, "bootstrap.js")));
 		response.render(JavaScriptHeaderItem.forReference(new JavaScriptResourceReference(WicketApplication.class, "custom.js")));
-		response.render(JavaScriptUrlReferenceHeaderItem.forUrl("https://secure-development.53.com/mortgage/dtm/init.js"));
+		response.render(JavaScriptUrlReferenceHeaderItem.forUrl("https://xxx.com/xx/dtm/init.js"));
 		response.render(OnDomReadyHeaderItem.forScript("var callScript ="+behavior.getCallbackScript()));
 		
 
