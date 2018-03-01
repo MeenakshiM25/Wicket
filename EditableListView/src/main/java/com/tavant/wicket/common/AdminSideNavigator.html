@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:extend>
+<section class="container-fluid">
+		  <div class="row">
+		   <div class="col-sm-3 ">
+		   	<div class="col-left mrgTop15">
+						<div id="MainMenu" class="main-menu">
+							<div wicket:id="clb2cSideNav" class="list-group panel">
+								<a href="#demo3" class="list-group-item list-group-item-success has-submenu" data-toggle="collapse" data-parent="#MainMenu">Drop Down Configurator <i class="glyphicon glyphicon-plus-sign"></i></a>
+								<div class="collapse" id="demo3">
+									<a href="javascript:void(0);" wicket:id="loanType" class="list-group-item">Type Of Loan</a>
+									<a href="javascript:void(0);" class="list-group-item">Primary Loan Purpose</a>
+									<a href="javascript:void(0);" class="list-group-item">Occupancy Type</a>
+									<a href="javascript:void(0);" class="list-group-item">Subject Property Type</a>
+									<a href="javascript:void(0);" class="list-group-item">Other Income</a>
+									<a href="javascript:void(0);" class="list-group-item">Assets</a>
+									<a href="javascript:void(0);" class="list-group-item">Type Of Vehicle</a>
+								    <a href="javascript:void(0);" class="list-group-item">I Want This Loan For</a>
+								</div>
+								<a href="#demo4" class="list-group-item list-group-item-success has-submenu" data-toggle="collapse" data-parent="#MainMenu">Default Value Manegement <i class="glyphicon glyphicon-plus-sign"></i></a>
+								<div class="collapse" id="demo4">
+									<a href="javascript:void(0);" class="list-group-item">Default Value Manegement </a>
+									<a href="javascript:void(0);" wicket:id="configureBusinessHours" class="list-group-item">Configure Business Hours</a>
+								</div>
+								<a href="#demo5" class="list-group-item list-group-item-success has-submenu" data-toggle="collapse" data-parent="#MainMenu">Best Fit Manegement <i class="glyphicon glyphicon-plus-sign"></i></a>
+								<div class="collapse" id="demo5">
+									<a href="javascript:void(0);" class="list-group-item">Best Fit Management</a>
+								</div>
+								<a href="#demo6" class="list-group-item list-group-item-success has-submenu" data-toggle="collapse" data-parent="#MainMenu">Rules Configurator<i class="glyphicon glyphicon-plus-sign"></i></a>
+								<div class="collapse" id="demo6">
+									<a href="javascript:void(0);" class="list-group-item">Rules Upload</a>
+								</div>
+							</div>
+						</div>
+			</div>
+		   </div>
+			<wicket:child></wicket:child>
+	   </div>
+</section>
+</wicket:extend>
+</html>

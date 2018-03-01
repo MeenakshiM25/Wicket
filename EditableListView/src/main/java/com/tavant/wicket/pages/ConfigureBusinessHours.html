@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:extend>
+<h2>CONFIGURE BUSINESS HOURS</h2>
+
+<div class="row mrgBtm20">
+   <h5 class="col-sm-4"> Select the group of emails you wish to change:</h5>   <div class="col-sm-3"><select class="form-control" wicket:id="emailGroup"></select> </div>
+ </div>
+<div class="row">
+		<div class="col-sm-12 col-md-6">
+			<div class="full-radius" wicket:id="currentEmailsContainer">
+				<h4 wicket:id="currentEmails">User Registration hours applies to the following:</h4>
+				<ul class="list-group">
+					<li wicket:id="currentEmailsListItem" class="list-group-item">
+					 <span wicket:id="emailDisplayPanel"></span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-sm-12 col-md-6">
+			<div class="full-radius" wicket:id="currentHoursContainer">
+				<h4 wicket:id="currentHours">Current hours displayed:</h4>
+				<ul  class="list-group">
+				  <li wicket:id="currentHoursListItem" class="list-group-item">
+				 	 <span wicket:id="timeDisplayPanel"></span>
+				   </li>
+				</ul>
+			</div>
+		</div>
+</div>
+<div class="row">
+	<div wicket:id="configBusinessHoursPanel"></div>
+</div>
+</wicket:extend>
+</html>

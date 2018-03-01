@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+	<head>
+		<meta charset="utf-8" />
+		<title>Apache Wicket Quickstart</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Admin Screen</title>
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>  
+	<header>
+         <div class="container-fluid">
+            <div class="col-sm-4 logo">
+               <a href="#"><img class="fifth-third-logo"/></a>
+            </div>
+            <ul class="header-nav pull-right">
+               <li>
+                  <a href="javascript:void(0)">Home</a>
+               </li>
+               <li>
+                  <a href="javascript:void(0)">Logout</a>
+               </li>
+            </ul>
+         </div>
+      </header>
+	    <section class="container-fluid">
+		  <div class="row">
+		   <div class="col-sm-3 ">
+		   </div>
+		    <div class="col-sm-9 ">
+               <div class="header row">
+                  <h3>ADMIN</h3>
+                  <div class="pull-right col-sm-3">
+                     <select class="form-control " id="">
+                        <option value="">-Select-</option>
+                        <option selected>Consumer Lending B2C</option>
+                        <option>XYZ</option>
+                     </select>
+                  </div>
+               </div>
+			   <div class="wrap table-responsive">
+				   <h4>Loan Type Drop Down Configurator</h4>
+					<form wicket:id="form">
+					  <div class="errorPanel" wicket:id="errorContainer">
+							<div class="feedback" wicket:id="feedback"></div>
+					   </div>
+					  <div wicket:id="listviewpanel">
+					   <table class="table table-bordered table-hover">
+						   <thead>
+							 <tr>
+								<th></th>
+								<th>Code</th>
+								<th>Display Value</th>
+								<th>Description</th>
+								<th>Display Order</th>
+								<th>Updated Date/time</th>
+								<th>Updated By</th>
+								<th>Status</th>
+							 </tr>
+						   </thead>
+						   <tbody>
+							 <tr wicket:id="listView">
+							   <td><input wicket:id="statuschkbox" type="checkbox"/></td>
+							   <td><input wicket:id="code" type="text"/></td>
+							   <td><input wicket:id="displayValue" type="text"/></td>
+							   <td><input wicket:id="description" type="text"/></td>
+							   <td><input wicket:id="displayOrder" type="text"/></td>
+							   <td><span wicket:id="updatedDate"/></td>
+							   <td><span wicket:id="updatedBy"/></td>
+							   <td><span wicket:id="status"/></td>
+							 </tr>
+						   </tbody>
+					   </table>
+					   </div>
+					 
+					  <button wicket:id="addBtn" class="btn">Add</button>
+					  <button wicket:id="applyBtn" class="btn">Apply</button>
+				   </form>
+	            </div>
+			</div>
+	   </div>
+	   </section>
+	</body>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</html>

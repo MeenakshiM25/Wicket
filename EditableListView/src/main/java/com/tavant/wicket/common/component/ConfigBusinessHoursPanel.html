@@ -1,0 +1,76 @@
+<wicket:panel>
+   <div class="col-sm-12 table-responsive">
+		<table class="table table-bordered table-hover">
+            <thead>
+				<tr>
+					<th></th>
+					<th colspan="2">Days </th>
+					<th colspan="3">From</th>
+					<th colspan="3">To</th>
+					<th>Display Order</th>
+				</tr>
+				<tr>
+					<th></th>
+					<th>Start Day</th>
+					<th>End Day</th>
+					<th>HH</th>
+					<th>MM</th>
+					<th>AM/PM</th>
+					<th>HH</th>
+					<th>MM</th>
+					<th>AM/PM</th>
+					<th></th>
+				</tr>
+			</thead>
+            <tbody>
+                <tr wicket:id="configBusinessHoursListView">
+                   <td><input wicket:id="selectBox" type="checkbox" /></td>               
+                   <td>
+                      <select class="form-control" wicket:id="startDay" id="start-day">
+                         <option value="">Monday</option>
+                         <option>Tuesday</option>
+                         <option>Wed</option>
+                      </select>
+                   </td>
+                   <td><select class="form-control" wicket:id="endDay" id="start-day">
+                         <option value="">Monday</option>
+                         <option>Tuesday</option>
+                         <option>Wed</option>
+                      </select></td>
+                      <td><select class="form-control" wicket:id="startHour" id="end-day">
+                         <option value="">01</option>
+                         <option>02</option>
+                         <option>03</option>
+                      </select></td>
+                      <td><select class="form-control" wicket:id="startMins" id="">
+                         <option value="">00</option>
+                         <option>15</option>
+                         <option>30</option>
+                      </select></td>
+                      <td><select class="form-control" wicket:id="startAMPM"  id="">
+                         <option value="">AM</option>
+                         <option>PM</option>
+                      </select></td>
+                      <td><select class="form-control" wicket:id="endHour" id="end-day">
+                         <option value="">01</option>
+                         <option>02</option>
+                         <option>03</option>
+                      </select></td>
+                      <td><select class="form-control" wicket:id="endMins" id="">
+                         <option value="">00</option>
+                         <option>15</option>
+                         <option>30</option>
+                      </select></td>
+                      <td><select class="form-control" wicket:id="endAMPM" id="">
+                         <option value="">AM</option>
+                         <option>PM</option>
+                      </select></td>
+                      <td>1</td>
+                </tr>
+  		 </tbody>
+	  </table>
+  </div>
+<button type="button" class="btn">ADD</button>
+<button type="button" class="btn">DELETE</button>
+<button type="button" class="btn">APPLY</button>
+</wicket:panel>

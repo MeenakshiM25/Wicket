@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:extend>
+	 <div class="wrap table-responsive">
+				   <h4>Loan Type Drop Down Configurator</h4>
+					<form wicket:id="form">
+					  <div class="errorPanel" wicket:id="errorContainer">
+							<div class="feedback" wicket:id="feedback"></div>
+					   </div>
+					  <div wicket:id="listviewpanel">
+					   <table class="table table-bordered table-hover">
+						   <thead>
+							 <tr>
+								<th></th>
+								<th>Code</th>
+								<th>Display Value</th>
+								<th>Description</th>
+								<th>Display Order</th>
+								<th>Updated Date/time</th>
+								<th>Updated By</th>
+								<th>Status</th>
+							 </tr>
+						   </thead>
+						   <tbody>
+							 <tr wicket:id="listView">
+							   <td><input wicket:id="statuschkbox" type="checkbox"/></td>
+							   <td><input wicket:id="code" type="text"/></td>
+							   <td><input wicket:id="displayValue" type="text"/></td>
+							   <td><input wicket:id="description" type="text"/></td>
+							   <td><input wicket:id="displayOrder" type="text"/></td>
+							   <td><span wicket:id="updatedDate"/></td>
+							   <td><span wicket:id="updatedBy"/></td>
+							   <td><span wicket:id="status"/></td>
+							 </tr>
+						   </tbody>
+					   </table>
+					   </div>
+					 
+					  <button wicket:id="addBtn" class="btn">Add</button>
+					  <button wicket:id="applyBtn" class="btn">Apply</button>
+				   </form>
+	  </div>
+</wicket:extend>
+</html>

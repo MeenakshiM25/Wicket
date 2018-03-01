@@ -1,0 +1,85 @@
+.table td{padding:10px;}
+.table tr{padding:10px;margin:10px;}
+/*----------Error Messages----------------------*/
+.errorMessage{color:#f00}
+.invalid,.error-bold{border:1px solid #f00 !important;}
+.errorPanel{margin:10px auto;border:1px solid #D0002F;background:#FEE6E6;padding:20px 15px 15px 15px;color:#D0002F !important;}
+.errorPanel p{font-weight:700;margin-bottom:8px}
+.errorPanel .feedback ul{list-style:disc;margin-left:20px;}
+.invalidRadio{color:#f00}
+span.error {color:#CC0000;font-weight: bold;}
+input.error,select.error,button.error{border: 1px solid #CC0000;}
+label.error {color: #CC0000;}
+li.feedbackPanelERROR{list-style:disc !important;}
+
+.error-border{border:3px solid red;}
+*{padding:0;margin:0}
+body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;color:#333}
+ul{list-style:none}
+header{color:#4c4c4b;border-bottom:5px solid #32529b;background:url(../images/header-gradient.png) repeat-x 0 0 #fff}
+header .logo{margin:0;padding:0;}
+header .logo .fifth-third-logo{background:url(../images/fifth-third-logo.png) 300px 147px}
+header ul.header-nav{padding-top:30px}
+header ul.header-nav li{float:left;list-style:none}
+header ul.header-nav li a{color:#4c4c4b;border-right:1px solid #a5a8ab;padding:0 10px}
+header ul.header-nav li:last-child a{border-right:0}
+.header{background:#1C3F94;padding:5px;font-weight:700;color:#fff;margin:20px 0 10px}
+.header h3{display:inline-block;margin:0 0 0 10px}
+.home-nav{width:80%;margin:100px auto 0;padding:2em 0 5em;text-align: center;}
+.home-nav a{display:block;width:190px;height:190px;background:#fff;border:3px solid #254094;border-radius:50%;margin:60px auto;text-align:center;color:#fff;padding:10px 0}
+.home-nav a span{display:block;width:45px;height:60px;margin:30px auto 10px}
+.home-nav a span.advisor{background:url(../images/home-icon.png) 300px 147px}
+.home-nav a span.newLoan{background:url(../images/home-icon.png) 237px 147px}
+.home-nav a span.ratesheet{background:url(../images/home-icon.png) 177px 147px}
+.home-nav a span.reports{background:url(../images/home-icon.png) 113px 147px}
+.home-nav a span.pipeline{background:url(../images/home-icon.png) 54px 147px}
+.home-nav a:hover{background:#254094;border:3px solid #fff}
+.home-nav a:hover span.advisor{background:url(../images/home-icon.png) 300px 66px}
+.home-nav a:hover span.newLoan{background:url(../images/home-icon.png) 237px 66px}
+.home-nav a:hover span.ratesheet{background:url(../images/home-icon.png) 177px 66px}
+.home-nav a:hover span.reports{background:url(../images/home-icon.png) 113px 66px}
+.home-nav a:hover span.pipeline{background:url(../images/home-icon.png) 54px 66px}
+.home-nav a{color:#000;font-weight:700;text-decoration:none}
+.home-nav a:hover a{color:#fff}
+.col-left{height:600px;box-shadow:0 0 10px #ccc}
+.mrgTop15{margin-top:15px}
+.list-group.panel > .list-group-item{border-bottom-right-radius:4px;border-bottom-left-radius:4px;color:#fff;font-weight:700;background-color: #254094;}
+.list-group.panel > .list-group-item:hover{background-color: #163072;}
+.list-group-submenu{margin-left:20px}
+#MainMenu i.glyphicon{float:right;margin-top:2px}
+a.list-group-item-success:focus,a.list-group-item-success:hover,button.list-group-item-success:focus,button.list-group-item-success:hover{color:#fff;background-color:#295D89}
+a.list-group-item:focus,a.list-group-item:hover,button.list-group-item:focus,button.list-group-item:hover{color:#0018A8}
+.main-menu .collapse  .list-group-item{color:#1C3F94;font-weight: 600;}
+.main-menu .collapse  .list-group-item:hover{color:#000;}
+.home-nav .list-group-item{border-color:#337AB7}
+tbody a{text-decoration:underline}
+td,th{text-align:center}
+.full-radius{background:#F3F3F3;min-height:128px;border-radius:5px;padding:10px;box-shadow:0 0 10px #ccc;margin-bottom:20px}
+.phone-number .col-xs-3::after{content:"-";position:absolute;right:0;color:#000;border:0 solid;top:5px}
+.phone-number .col-xs-1{padding-top:5px}
+
+.circles {
+    display: inline-block;
+    float: none;
+}
+/****/
+.btn {
+    border-radius: 0;
+    padding: 8px 22px;
+    text-decoration: none !important;
+    color: #FFF;
+    background-color: #1C3F94;
+    border-color: #1C3F94;
+    text-transform: uppercase;    font-weight: 600;
+}
+.btn:hover{color: #FFF;
+    background-color: #163072;
+    border-color: #122961;}
+thead th {
+    background: rgb(80, 146, 54);
+    color: #fff;
+}
+.wid80 {display: inline-block;width:80px;}
+.mrgRight10{margin-right:10px;}
+.mrgLeft20{margin-left:20px;}
+.mrgBtm20{margin-bottom:20px;}
